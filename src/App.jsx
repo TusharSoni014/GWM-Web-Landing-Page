@@ -1,12 +1,14 @@
 import React from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Features from "./components/Features";
 
 function App() {
   return (
-    <div className="__app bg-slate-600">
+    <div className="__app">
       <Header />
       <Hero />
+      <Features/>
     </div>
   );
 }
